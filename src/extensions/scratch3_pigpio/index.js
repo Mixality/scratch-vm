@@ -2,10 +2,15 @@ const formatMessage = require('format-message');
 const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 const Cast = require('../../util/cast');
-const fs = window.require('fs');
-const cp = window.require('child_process');
-const path = window.require('path');
-const gpio = window.require(path.join(__static,'gpiolib.node'))
+// const fs = window.require('fs');
+// const fs = window.require('fs');
+// const cp = window.require('child_process');
+// const cp = window.require('child_process');
+// const path = window.require('path');
+// const path = window.require('path');
+// const gpio = window.require(path.join(__static,'gpiolib.node'))
+// const gpio = window.require(path.join(__static,'gpiolib.node'))
+const gpio = require('../../gpiolib.node');
 
 /**
  * Icon svg to be displayed at the left edge of each extension block, encoded as a data URI.

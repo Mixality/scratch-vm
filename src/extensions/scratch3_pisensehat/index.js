@@ -2,6 +2,8 @@ const formatMessage = require('format-message');
 const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 const Cast = require('../../util/cast');
+// const fs = window.require('fs');
+// const cp = window.require('child_process');
 const fs = window.require('fs');
 const cp = window.require('child_process');
 
